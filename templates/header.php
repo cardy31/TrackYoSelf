@@ -5,22 +5,30 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 <link rel="stylesheet" href="../public_html/css/bootstrap.css">
 <link rel="stylesheet" href="../public_html/css/style.css">
 <title>Track Yo Self</title>
 
 <body>
-<div class="w3-top">
-    <ul class="w3-navbar w3-white w3-card-2" id="myNavbar">
-        <li>
-            <a href="../public_html/" class="w3-wide">Track Yo Self!</a>
-        </li>
-        <!-- Right-sided navbar links -->
-        <li class="w3-right w3-hide-small">
-            <a href="#team">TEAM</a>
-            <a href="../public_html/goals.php">GOALS</a>
-            <a href="../public_html/login.php">LOGIN</a>
-            <a href="#contact">CONTACT</a>
-        </li>
-    </ul>
-</div>
+<nav class="navbar navbar-default" id=main-nav" role="navigation">
+    <div class="container-fluid" id="drop">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../public_html/">
+                <img src="../public_html/images/logo.png">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#name">ABOUT</a></li>
+                <li><a id="../public_html/stats.php" href="#">STATS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

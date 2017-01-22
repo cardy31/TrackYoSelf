@@ -1,6 +1,15 @@
 
 <div class="jumbotron" id="main">
     <h1>Start Something That Matters</h1>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+<div class="jumbotron" id="second">
+    <div class="col-lg-8">
+        <h1>Voice-activated Meal Tracking</h1>
+    </div>
+    <div class="col-lg-4">
+
+    </div>
 </div>
 
 <!-- Team Section -->
@@ -54,28 +63,4 @@
       </div>
     </div>
   </div>
-</div>
-
-<div class="w3-container w3-padding-128 w3-light-grey" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch, Slide into our DM's:</p>
-<div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-half">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Neverland</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1 403 230 6033</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: weCu@trackyoself.com</p>
-     </div>
-     <div class="w3-half">
-     	<form action="form.asp" target="_blank">
-              <p><input class="w3-input w3-border w3-margin-right" type="text" placeholder="Name" required name="Name"></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-          <p>
-            <button class="w3-btn w3-padding" type="submit">
-              <i class="fa fa-paper-plane"></i> SLIDE IN
-</button>
-          </p>
-        </form>
-       </div>
 </div>

@@ -1,3 +1,32 @@
+.navbar {
+    font-size: 25pt;
+    background-color: #000000;
+    border-color: transparent;
+    margin-bottom: 0px;
+    height: 13vh;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 40pt;
+    color: white;
+    max-height: 10px;
+    max-width: 20px;
+    overflow: visible;
+    padding-top: 6vh;
+    padding-bottom: 0;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    padding-top: 6vh;
+    color: white;
+}
+
+.navbar-default .navbar-brand img{
+    height: 15vh;
+    padding-top: 0px;
+    margin-top: -6.5vh;
+}
+
 #text {
     z-index: 100;
     position: absolute;
@@ -14,22 +43,21 @@ body, html {
     line-height: 3.0;
 }
 
-.w3-navbar li a {
-    padding: 3px;
-    float: left;
-}
-
 #main {
     background-image: url("../images/landing.jpg");
     height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     text-align:center;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 #main h1 {
-    padding-top: 30vh;
+    padding-top: 15vh;
     margin: auto;
     vertical-align: middle;
+}
+
+#second {
+    
 }
