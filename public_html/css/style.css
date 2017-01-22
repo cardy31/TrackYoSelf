@@ -1,0 +1,35 @@
+#text {
+    z-index: 100;
+    position: absolute;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 3.0;
+}
+
+.w3-navbar li a {
+    padding: 3px;
+    float: left;
+}
+
+#main {
+    background-image: url("../images/landing.jpg");
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+
+}
+
+#main h1 {
+    padding-top: 30vh;
+    margin: auto;
+    vertical-align: middle;
+}
