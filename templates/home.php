@@ -1,19 +1,21 @@
 
 <div class="jumbotron" id="main">
-    <h1>Start Something That Matters</h1>
+    <h1>Track Calories Effortlessly</h1>
+    <h2>Using only your voice</h2>
+    <h2></h2>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 </div>
 <div class="jumbotron" id="second">
-    <div class="col-lg-8">
-        <h1>Voice-activated Meal Tracking</h1>
+    <div class="col-lg-7">
+        <h1>Voice-controlled Meal Tracking</h1>
+        <h2>Enabled by Pebble</h2>
     </div>
-    <div class="col-lg-4">
-
+    <div class="col-lg-5">
+        <img src="../public_html/images/pebble.png">
     </div>
 </div>
 
 <!-- Team Section -->
-
 <div class="w3-container w3-padding-128" id="team">
   <h3 class="w3-center">THE TEAM</h3>
   <p class="w3-center w3-large">AKA the ones who hacked this shit</p>
@@ -24,7 +26,7 @@
         <div class="w3-container">
           <h3>Rob Cardy</h3>
           <p class="w3-opacity">Drummer & Jazz Enthusiast</p>
-          <p> Robert Cardy V is the sole member of the presitigious Club BOB.</p>
+          <p> Drums. Computers. Hockey. Other stuff.</p>
           <p><button class="w3-btn-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
       </div>
@@ -56,7 +58,7 @@
         <img src="../public_html/images/matan.JPG" height="300" width="300" alt="Matan" >
         <div class="w3-container">
           <h3>Matan Feldberg</h3>
-          <p class="w3-opacity">The Intern</p>
+          <p class="w3-opacity">Le Bagel</p>
           <p>This fella has the glasses and everything and is ther intern ... </p>
           <p><button class="w3-btn-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>

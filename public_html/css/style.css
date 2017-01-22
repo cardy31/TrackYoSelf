@@ -45,11 +45,12 @@ body, html {
 
 #main {
     background-image: url("../images/landing.jpg");
-    height: 75vh;
+    height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     text-align:center;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
 }
 
 #main h1 {
@@ -59,5 +60,21 @@ body, html {
 }
 
 #second {
+    padding-top: 0;
+    margin-top: 0;
+    height: 70vh;
+    text-align: center;
+}
+
+#second h1{
+    padding-top: 15vh;
+}
+
+#second img{
+    margin-top: -5vh;
+    height: 75vh;
+}
+
+.w3-container w3-padding-128 {
     
 }
