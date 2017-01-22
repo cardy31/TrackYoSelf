@@ -1,3 +1,3 @@
 <?php
 require("../includes/config.php");
-render("../templates/goals-view.php");
+render("../templates/about-view.php");

@@ -6,8 +6,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-<link rel="stylesheet" href="../public_html/css/bootstrap.css">
-<link rel="stylesheet" href="../public_html/css/style.css">
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/style.css">
 <title>Track Yo Self</title>
 
 <body>
@@ -20,14 +20,14 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="../public_html/">
-                <img src="../public_html/images/logo.png">
+                <img src="/images/new_logo.png">
             </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#name">ABOUT</a></li>
-                <li><a id="../public_html/stats.php" href="#">STATS</a></li>
+                <li><a href="/about.php">ABOUT</a></li>
+                <li><a id="/stats.php" href="#">STATS</a></li>
             </ul>
         </div>
     </div>
